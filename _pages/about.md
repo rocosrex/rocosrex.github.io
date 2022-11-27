@@ -10,8 +10,7 @@ toc: true
 
 ## Profile
 ---
-{% raw %} <img src="https://rocosrex.github.io/assets/images/rexlee.JPG" alt=""> {% endraw %}
-
+![Alt text](https://github.com/rocosrex/rocosrex.github.io/blob/main/assets/images/rexlee.jpg)
 * Name : Rex Lee<br/>
 * Incharge : Research director of Rocos Co., LTd.<br/>
 
