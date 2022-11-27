@@ -85,11 +85,17 @@ toc: true
 * 베스트 엔지니어상 수상 (Autodesk Korea)
 * 드론을 이용한 하천 측량 경진대회 2 위 입상 (국토교통부, 무인선 출품) 
 
+## Language Skills
+---
+* Dart, Dart, C++, C#, Java, Python, VB, Fortran
+* DBMS: Oracle, MS-SQL, SQLite
+
 ## Skills
 ---
 * Flutter
 * Xamarin
 * Unity3D
+* Dev Express, Syncfusion .Net
 * IOT (Arduino, Rasberry PI)
 * Windows Application Development
 * AutoCAD ObjectARX, .Net API
