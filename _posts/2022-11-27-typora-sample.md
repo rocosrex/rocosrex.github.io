@@ -12,7 +12,7 @@ Typora S/W를 구입하고,
 ![SunFlower](https://user-images.githubusercontent.com/118745172/204127843-d424981a-a3cd-4238-bf6f-f35a77437340.jpg)
 
 
-![test-image](/assets/img/ITD-banner.png)
+![test-banner](/assets/img/ITD-banner.png)
 
 
 
