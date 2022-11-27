@@ -110,7 +110,7 @@ author:
   location         : "USA in the future"
   email            :
   links:
-    - label: "Email"
+    - label: "rocos.rex@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:rocos.rex@gmail.com"
     #- label: "Website"
