@@ -1,7 +1,7 @@
 ---
 title: "Welcome to Typora!"
 date: 0222-11-27
-categories: Tytpora
+categories: Typora
 ---
 github에 처음으로 page를 만들고 
 
