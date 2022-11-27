@@ -11,7 +11,7 @@ Typora S/W를 구입하고,
 
 
 
-<img src="../../../rexlee/Pictures/SunFlower.jpg" alt="SunFlower" style="zoom:15%;" />
+<img src="../_images/image-20221127164519119.png" alt="image-20221127164519119" style="zoom:25%;" />
 
 
 
