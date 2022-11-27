@@ -10,7 +10,7 @@ toc: true
 
 ## Profile
 ---
-![Alt text](https://github.com/rocosrex/rocosrex.github.io/blob/main/assets/images/rexlee.jpg)
+[<img src="/assets/images/rexlee.jpg">](https://rocosrex.github.io/)
 * Name : Rex Lee<br/>
 * Incharge : Research director of Rocos Co., LTd.<br/>
 
