@@ -9,7 +9,7 @@ Typora S/W를 구입하고,
 
 이 글을 작성해 봅니다.
 
-![image-20221127164519119](https://github.com/rocosrex/rocosrex.github.io/_images/image-20221127164519119.png)
+![image-20221127164519119](https://github.com/rocosrex/rocosrex.github.io/blob/main/_images/image-20221127164519119.png)
 
 
 
