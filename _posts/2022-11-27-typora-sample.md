@@ -9,6 +9,7 @@ Typora S/W를 구입하고,
 
 이 글을 작성해 봅니다.
 
+![SunFlower](https://user-images.githubusercontent.com/118745172/204127843-d424981a-a3cd-4238-bf6f-f35a77437340.jpg)
 
 
 <img src="../_images/image-20221127164519119.png" alt="image-20221127164519119" style="zoom:25%;" />
