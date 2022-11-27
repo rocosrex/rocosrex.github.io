@@ -80,6 +80,29 @@ toc: true
 * 도로 설계 자동화 시스템 (농업기반공사)
 * 농업시설유지관리시스템 (농업기반공사)
 
+## Award & Projects
+---
+* 베스트 엔지니어상 수상 (Autodesk Korea)
+* 드론을 이용한 하천 측량 경진대회 2 위 입상 (국토교통부, 무인선 출품) 
+
+## Skills
+---
+* Flutter
+* Xamarin
+* Unity3D
+* IOT (Arduino, Rasberry PI)
+* Windows Application Development
+* AutoCAD ObjectARX, .Net API
+* Autodesk Civil3D 3rd-party Development
+* Autodesk Civil3D Sub-Assembly Development
+* ODA Teiga Engine
+* Hololens
+* Kinect3D
+* Intel Real Sense 3D
+* PLC Ladder Programming
+* ROS (Robot Operating System)
+* DirectX, OpenGL
+
 ## Contact
 ---
 * Email : rocos.rex@gmail.com<br/>

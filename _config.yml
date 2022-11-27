@@ -109,7 +109,7 @@ author:
   bio              : "I am a developer who live in Seoul. Let's go party!!!"
   location         : "USA in the future"
   email            : rocos.rex@gmail.com
-  links:
+    links:
     - label: "rocos.rex@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:rocos.rex@gmail.com"
