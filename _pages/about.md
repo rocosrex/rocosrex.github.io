@@ -10,7 +10,7 @@ toc: true
 
 ## Profile
 ---
-{% raw %} <img src="https://rocosrex.github.io/assets/img/rexlee.JPG" alt=""> {% endraw %}
+{% raw %} <img src="https://rocosrex.github.io/assets/images/rexlee.JPG" alt=""> {% endraw %}
 
 * Name : Rex Lee<br/>
 * Incharge : Research director of Rocos Co., LTd.<br/>
@@ -22,6 +22,7 @@ toc: true
 * Deep Learning<br/>
 * Computer Vision<br/>
 * Data Analysis<br/>
+* Flutter<br/>
 
 ## Career & Activities
 ---
@@ -31,7 +32,7 @@ toc: true
 
 ## Contact
 ---
-* Email : ohjinjin0408@naver.com<br/>
-* Git : [github.com/ohjinjin](github.com/ohjinjin)<br/>
-* Blog : [ohjinjin.github.io](ohjinjin.github.io)<br/>
-* Address : M612 Univ.SoonCheonHyang 22, Soonchunhyang-ro, Sinchang-myeon, Asan-si, Chungcheongnam-do, 31538, Rep. of KOREA<br/>
+* Email : rocos.rex@gmail.com<br/>
+##* Git : [github.com/rocosrex](github.com/rocosrex)<br/>
+* Blog : [rocosrex.github.io](rocosrex.github.io)<br/>
+* Address : 286, Beotkkot-ro, Geumcheon-gu, Seoul, Republic of Korea, Rep. of KOREA<br/>
