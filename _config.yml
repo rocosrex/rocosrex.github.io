@@ -1,7 +1,11 @@
 #
 remote_theme :  StartBootstrap/startbootstrap-clean-blog-jekyll
 
+<<<<<<< HEAD
 title:              Rex Lee Blog
+=======
+title:              Rex Lee's Blog
+>>>>>>> parent of f1bade1 (flutter web build test)
 email:              rocos.rex@gmail.com
 description:        A Blog of Rex Lee's development life.
 author:             Rex Lee
