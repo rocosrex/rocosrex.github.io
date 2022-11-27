@@ -26,9 +26,11 @@ toc: true
 
 ## Career & Activities
 ---
-* <pre>2019.03 ~ 2019.08</pre> manager of LikeLion7th@SCH<br/>
-* <pre>2019.08 ~        </pre> Representative of LikeLion7th@SCH<br/>
-* <pre>2019.09 ~        </pre> member of DSC@SCH<br/>
+* Research Director at Rocos Co., Ltd.
+* FreeLancer
+* CEO at RexHiTech Co., Ltd.
+* Research Director at Korea Infra Co., Ltd.
+* General Manager at Saman Engineering.
 
 ## Contact
 ---
