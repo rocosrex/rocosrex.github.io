@@ -86,29 +86,25 @@ firebase 프로젝트 리스트 보기를 실행하여, 계정에 억세스 가�
 
 
 
-##### <!--4. Google Cloud Flatform 약관 동의-->
+##### -4. Google Cloud Flatform 약관 동의
 
 
 
-<!--<img src="https://raw.githubusercontent.com/rocosrex/rocosrex.github.io/main/assets/images/blogimage-20221129133912734.png" alt="image-20221129133912734" style="zoom: 25%;" />-->
+<img src="https://raw.githubusercontent.com/rocosrex/rocosrex.github.io/main/assets/images/blogimage-20221129133912734.png" alt="image-20221129133912734" style="zoom: 25%;" />
 
-<!--모두 동의하고 '동의 및 계속하기' 를 클릭한다.-->
+모두 동의하고 '동의 및 계속하기' 를 클릭한다.
 
-<!--<img src="https://raw.githubusercontent.com/rocosrex/rocosrex.github.io/main/assets/images/blogimage-20221129134012112.png" alt="image-20221129134012112" style="zoom:25%;" />-->
-
-
+<img src="https://raw.githubusercontent.com/rocosrex/rocosrex.github.io/main/assets/images/blogimage-20221129134012112.png" alt="image-20221129134012112" style="zoom:25%;" />
 
 
 
-<!--<img src="https://raw.githubusercontent.com/rocosrex/rocosrex.github.io/main/assets/images/blogimage-20221129134053619.png" alt="image-20221129134053619" style="zoom:25%;" />-->
-
-<!--오른쪽 위 '활성화' 버튼 클릭-->
-
-<!--<img src="https://raw.githubusercontent.com/rocosrex/rocosrex.github.io/main/assets/images/blogimage-20221129134343606.png" alt="image-20221129134343606" style="zoom:25%;" />-->
 
 
+<img src="https://raw.githubusercontent.com/rocosrex/rocosrex.github.io/main/assets/images/blogimage-20221129134053619.png" alt="image-20221129134053619" style="zoom:25%;" />
 
-<!--'계속' 버튼 클릭-->
+'계속' 버튼 클릭
+
+
 
 ##### 3. 프로젝트 생성
 
