@@ -29,6 +29,9 @@ Just try it!: <https://moonsiri.tistory.com/>
 
 이 포스트에서 설명할 기능은 단순히 언어를 번역해주는 단순한 기능이기 때문에, 이 기능은 이하 **Localization**이라고 칭하기로 한다.
 
+## 지원하는 Package[[2]](#참조-2)
+
 
 
 참조 1:  <https://devuryu.tistory.com/401>
+참조 2: <https://moonsiri.tistory.com/83>
