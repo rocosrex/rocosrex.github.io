@@ -38,6 +38,22 @@ Just try it!: <https://moonsiri.tistory.com/>
 
 
 
+## Internationalization 절차-**[intl](https://pub.dev/packages/intl/versions/0.16.1)** 사용
+
+
+
+1. `pubspec.yaml` 에 pacakge 추가()
+2.  generate 추가
+3. 새로운 `l10n.yaml`  파일 추가 (root directory)
+4. `app_en.arb`, app_ko.arb template file 추가 ( ${FLUTTER_PROJECT}/lib/l10n )
+5. run `flutter gen-l10n`
+6. main.dart 수정 (import, delegate)
+7. AppLocalizations 사용
+
+
+
+
+
 
 
 ### 참조 자료
