@@ -42,8 +42,8 @@ Just try it!: <https://moonsiri.tistory.com/>
 
 
 
-1. [`pubspec.yaml` 에 pacakge 추가](#`pubspec.yaml`-에-pacakge-추가)
-2.  generate 추가
+1. [`pubspec.yaml` 에 pacakge 추가](#1.-`pubspec.yaml`-에-pacakge-추가)
+2.  [generate 추가](#2.-generate-추가)
 3. 새로운 `l10n.yaml`  파일 추가 (root directory)
 4. `app_en.arb`, app_ko.arb template file 추가 ( ${FLUTTER_PROJECT}/lib/l10n )
 5. run `flutter gen-l10n`
@@ -54,7 +54,22 @@ Just try it!: <https://moonsiri.tistory.com/>
 
 #### 1.  `pubspec.yaml` 에 pacakge 추가
 
+~~~yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations: # Add this line
+    sdk: flutter         # Add this line
+  intl: ^0.17.0 # Add this line
+~~~
 
+#### 2. generate 추가
+
+```yaml
+# The following section is specific to Flutter.
+flutter:
+  generate: true # Add this line
+```
 
 
 
