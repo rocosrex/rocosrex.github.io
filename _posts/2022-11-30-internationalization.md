@@ -42,7 +42,7 @@ Just try it!: <https://moonsiri.tistory.com/>
 
 
 
-1. `pubspec.yaml` 에 pacakge 추가()
+1. [`pubspec.yaml` 에 pacakge 추가](#`pubspec.yaml`-에-pacakge-추가)
 2.  generate 추가
 3. 새로운 `l10n.yaml`  파일 추가 (root directory)
 4. `app_en.arb`, app_ko.arb template file 추가 ( ${FLUTTER_PROJECT}/lib/l10n )
@@ -51,6 +51,8 @@ Just try it!: <https://moonsiri.tistory.com/>
 7. AppLocalizations 사용
 
 
+
+#### 1.  `pubspec.yaml` 에 pacakge 추가
 
 
 
