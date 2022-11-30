@@ -241,19 +241,19 @@ MaterialApp의 title은 어디에 쓰이는가?
 
 
 
-2.  open the `Info.plist` file under the `Runner` project’s `Runner` folder. Select the **Information Property List** item. Then select **Add Item** from the **Editor** menu, and select **Localizations** from the pop-up menu. 아래 화면은 이미 추가된 화면이다.
+2. open the `Info.plist` file under the `Runner` project’s `Runner` folder. Select the **Information Property List** item. Then select **Add Item** from the **Editor** menu, and select **Localizations** from the pop-up menu. 아래 화면은 이미 추가된 화면이다.
 
 ![2](https://raw.githubusercontent.com/rocosrex/rocosrex.github.io/main/assets/images/blog2.png)
 
 
 
-2. dart_too/flutter_gen/genI10n directory에 localizations 관련 파일 3개가 있는지 확인한다. 없으면 터미널에서 `flutter gen-l10n`를 실행 한다.
+3. dart_too/flutter_gen/genI10n directory에 localizations 관련 파일 3개가 있는지 확인한다. 없으면 터미널에서 `flutter gen-l10n`를 실행 한다.
 
 ![3](https://raw.githubusercontent.com/rocosrex/rocosrex.github.io/main/assets/images/blog3.png)
 
 
 
-3. IOS에 적용된 결과
+4. IOS에 적용된 결과
 
 <img src="https://raw.githubusercontent.com/rocosrex/rocosrex.github.io/main/assets/images/blog4.png" alt="4" style="zoom: 25%;" />
 
