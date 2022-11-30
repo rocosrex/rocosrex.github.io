@@ -32,13 +32,13 @@ Just try it!: <https://moonsiri.tistory.com/>
 ## 지원하는 Package[[2]](#참조-2)
 지원하는 패키지는
 
-  - **intl** : dart에서 internalization and localization를 지원하는 패키지로서 다국어 처리나 성별, 날짜, 숫자 등을 그 지역이나 국가에 맞게 바꿀 때 사용
-  - **flutter_i18n** : 유지보수 중단
-  - **easy_localization** : key:value 형식을 사용
+  - **[intl](https://pub.dev/packages/intl/versions/0.16.1)** : dart에서 internalization and localization를 지원하는 패키지로서 다국어 처리나 성별, 날짜, 숫자 등을 그 지역이나 국가에 맞게 바꿀 때 사용
+  - **[flutter_i18n](https://pub.dev/packages/flutter_i18n)** : 유지보수 중단
+  - **[easy_localization](https://pub.dev/packages/easy_localization)** : key:value 형식을 사용
 
 intl은 dart에서 internalization and localization를 지원하는 패키지입니다. 다국어 처리나 성별, 날짜, 숫자 등을 그 지역이나 국가에 맞게 바꿀 때 사용합니다.
 
 
 
-참조 1:  <https://devuryu.tistory.com/401>
-참조 2: <https://moonsiri.tistory.com/83>
+참조 1:  <https://devuryu.tistory.com/401> 
+참조 2: <https://moonsiri.tistory.com/83> 
