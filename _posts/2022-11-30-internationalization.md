@@ -7,6 +7,8 @@ Flutter의 Internationaliztion에 대해 고찰해 보겠다.
 
 
 
+[TOC]
+
 참고자료:
 
 Flutter 공식 문서: <https://docs.flutter.dev/development/accessibility-and-localization/internationalization>
@@ -19,7 +21,7 @@ Just try it!: <https://moonsiri.tistory.com/>
 
 
 
-## Globalization vs Internationalization vs Localization [[1]](#참조-1)
+### Globalization vs Internationalization vs Localization [[1]](#참조-1)
 
 이 기능을 구현하기 위해 여기저기 구글링하다보니 조금 헷갈리는 용어들이 있어서, 찾아보면서 느낀 용어들의 정의를 여기서 정리하고 가고자 한다.
 
@@ -29,7 +31,9 @@ Just try it!: <https://moonsiri.tistory.com/>
 
 이 포스트에서 설명할 기능은 단순히 언어를 번역해주는 단순한 기능이기 때문에, 이 기능은 이하 **Localization**이라고 칭하기로 한다.
 
-## 지원하는 Package[[2]](#참조-2)
+
+
+### 지원하는 Package[[2]](#참조-2)
 지원하는 패키지는
 
   - **[intl](https://pub.dev/packages/intl/versions/0.16.1)** : dart에서 internalization and localization를 지원하는 패키지로서 다국어 처리나 성별, 날짜, 숫자 등을 그 지역이나 국가에 맞게 바꿀 때 사용
@@ -38,17 +42,7 @@ Just try it!: <https://moonsiri.tistory.com/>
 
 
 
-## Internationalization 절차-**[intl](https://pub.dev/packages/intl/versions/0.16.1)** 사용
-
-
-
-1. [`pubspec.yaml` 에 pacakge 추가](#1.-`pubspec.yaml`-에-pacakge-추가)
-2.  [generate 추가](#generate-추가)
-3. 새로운 `l10n.yaml`  파일 추가 (root directory)
-4. `app_en.arb`, app_ko.arb template file 추가 ( ${FLUTTER_PROJECT}/lib/l10n )
-5. run `flutter gen-l10n`
-6. main.dart 수정 (import, delegate)
-7. AppLocalizations 사용
+### Internationalization 절차-**[intl](https://pub.dev/packages/intl/versions/0.16.1)** 사용
 
 
 
@@ -63,6 +57,8 @@ dependencies:
   intl: ^0.17.0 # Add this line
 ~~~
 
+추가된 pacakage를 설치하기 위해 pub get 실행한다.
+
 #### 2. generate 추가
 
 ```yaml
@@ -70,6 +66,171 @@ dependencies:
 flutter:
   generate: true # Add this line
 ```
+
+#### 3. 새로운 l10n.yaml  파일 추가 (root directory)
+
+```
+arb-dir: lib/l10n
+template-arb-file: app_en.arb
+output-localization-file: app_localizations.dart
+```
+
+
+
+![image-20221130163358917](https://raw.githubusercontent.com/rocosrex/rocosrex.github.io/main/assets/images/blogimage-20221130163358917.png)
+
+
+
+#### 4. `app_en.arb`, app_ko.arb template file 추가
+
+.arb 파일은 구글에서 만든 Application Resource Bundle이다.
+
+프로젝트 ${FLUTTER_PROJECT}/lib/l10n에 `app_en.arb` template file 추가
+
+```
+{
+    "helloWorld": "Hello World!",
+    "@helloWorld": {
+      "description": "The conventional newborn programmer greeting"
+    }
+}
+```
+
+프로젝트 ${FLUTTER_PROJECT}/lib/l10n에 `app_ko.arb` template file 추가
+
+```
+{
+    "helloWorld": "안녕하세요!"
+}
+```
+
+#### 5. run `flutter gen-l10n` at Terminal
+
+![image-20221130164546769](https://raw.githubusercontent.com/rocosrex/rocosrex.github.io/main/assets/images/blogimage-20221130164546769.png)
+
+.dart_too/flutter_gen/genI10n directory에 localizations 관련 파일이 3개 생긴다.
+
+- app_localizations.dart
+
+- app_localizations_en.dart
+- app_localizations_ko.dart
+
+
+
+#### 6. main.dart에 internationlization 관련 코드 수정
+
+```
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+```
+
+```
+return const MaterialApp(
+  title: 'Localizations Sample App',
+  localizationsDelegates: [
+    AppLocalizations.delegate, // Add this line
+    GlobalMaterialLocalizations.delegate,
+    GlobalWidgetsLocalizations.delegate,
+    GlobalCupertinoLocalizations.delegate,
+  ],
+  supportedLocales: [
+    Locale('en', ''), // English, no country code
+    Locale('es', ''), // Spanish, no country code
+  ],
+  home: MyHomePage(),
+);
+```
+
+GlobalMaterialLocalizations.delegate 라인에 빨간줄 에러가 생긴다. 아래 import code가 없어서 발생한다.
+
+```
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+```
+
+
+
+![image-20221130165707357](https://raw.githubusercontent.com/rocosrex/rocosrex.github.io/main/assets/images/blogimage-20221130165707357.png)
+
+
+
+####7. 사용하기
+
+
+
+```
+class _MyHomePageState extends State<MyHomePage> {
+  int _counter = 0;
+
+  void _incrementCounter() {
+    setState(() {
+      _counter++;
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(widget.title),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Text(AppLocalizations.of(context)!.helloWorld),
+            const Text(
+              'You have pushed the button this many times:',
+            ),
+            Text(
+              '$_counter',
+              style: Theme.of(context).textTheme.headline4,
+            ),
+          ],
+        ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: _incrementCounter,
+        tooltip: 'Increment',
+        child: const Icon(Icons.add),
+      ), // This trailing comma makes auto-formatting nicer for build methods.
+    );
+  }
+}
+```
+
+
+
+- 영문 결과
+
+![image-20221130170738428](https://raw.githubusercontent.com/rocosrex/rocosrex.github.io/main/assets/images/blogimage-20221130170738428.png)
+
+
+
+**Phone의 시스템 셋팅에서 언어를 변경한다.**
+
+
+
+- 한글 결과
+
+![image-20221130170429442](https://raw.githubusercontent.com/rocosrex/rocosrex.github.io/main/assets/images/blogimage-20221130170429442.png)
+
+
+
+#### 8. device app description에 적용하기
+
+```
+return MaterialApp(
+  onGenerateTitle: (context) =>
+      DemoLocalizations.of(context).title,
+```
+
+MaterialApp의 title은 어디에 쓰이는가?
+
+- Useful for the Android only.
+
+- On iOS this value cannot be used.
+
+안드로이는 최근 사용앱에 표시되고, IOS에는 사용되지 않는다.
+
 
 
 
