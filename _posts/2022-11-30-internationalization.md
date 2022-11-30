@@ -5,3 +5,11 @@ categories: Flutter
 ---
 Flutter의 Internationaliztion에 대해 고찰해 보겠다.
 
+
+
+참고자료:
+
+[Flutter ]: https://docs.flutter.dev/development/accessibility-and-localization/internationalization
+
+
+
