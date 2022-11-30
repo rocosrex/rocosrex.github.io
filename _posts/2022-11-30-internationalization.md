@@ -10,12 +10,16 @@ Flutter의 Internationaliztion에 대해 고찰해 보겠다.
 참고자료:
 
 Flutter 공식 문서: <https://docs.flutter.dev/development/accessibility-and-localization/internationalization>
+
 공부하는 홍짜: <https://lovelyhongjja.tistory.com/7>
+
 대부류: <https://devuryu.tistory.com/401>
 
+Just try it!: <https://moonsiri.tistory.com/>
 
 
-## [Globalization vs Internationalization vs Localization][1]
+
+## Globalization vs Internationalization vs Localization [1]
 
 이 기능을 구현하기 위해 여기저기 구글링하다보니 조금 헷갈리는 용어들이 있어서, 찾아보면서 느낀 용어들의 정의를 여기서 정리하고 가고자 한다.
 
