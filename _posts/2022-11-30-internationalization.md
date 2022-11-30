@@ -1,6 +1,9 @@
 ---
 title: "Internationalization"
 date: 2022-11-30 13-00-00 +0900
+toc: true
+toc_sticky: true
+toc_label: 바로 가기 목차
 categories: Flutter
 ---
 Flutter의 Internationaliztion에 대해 고찰해 보겠다.
