@@ -37,4 +37,4 @@ Just try it!: <https://moonsiri.tistory.com/>
 
 
 
-[1]: https://devuryu.tistory.com/401
+[1]: <https://devuryu.tistory.com/401>
