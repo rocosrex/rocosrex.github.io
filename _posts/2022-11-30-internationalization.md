@@ -43,7 +43,7 @@ Just try it!: <https://moonsiri.tistory.com/>
 
 
 1. [`pubspec.yaml` 에 pacakge 추가](#1.-`pubspec.yaml`-에-pacakge-추가)
-2.  [generate 추가](#2.-generate-추가)
+2.  [generate 추가](#generate-추가)
 3. 새로운 `l10n.yaml`  파일 추가 (root directory)
 4. `app_en.arb`, app_ko.arb template file 추가 ( ${FLUTTER_PROJECT}/lib/l10n )
 5. run `flutter gen-l10n`
